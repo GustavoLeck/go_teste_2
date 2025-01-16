@@ -1,11 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt" 
+	"github.com/GustavoLeck/ZohoRequests/tree/main/crm/account"
+)
 
 func main() {
-	fmt.Println(teste())
-}
-
-func teste() string {
-	return "teste"
+	fmt.Println( "teste");
+	ZohoRequests.Teste();
 }
